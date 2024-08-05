@@ -55,7 +55,7 @@ nav .lft-nav a, .rght-nav a{
     cursor: pointer;
 }
 
-/* main section */
+/* hero section */
 .part-1{
     width: 100%;
     height: 90vh;
@@ -167,4 +167,122 @@ nav .lft-nav a, .rght-nav a{
     background-color: #3FAD6B;
     color: #fff;
     font-size: 0.8vw;
+}
+
+.part-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.part-2 .top-part-2{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.lft-top-part-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 3vh;
+    padding-left: 5vw;
+}
+
+.lft-top-part-2 h1{
+    font-size: 3vw;
+}
+
+.lft-top-part-2 p{
+    width: 80%;
+}
+
+.btn{
+    padding: 0.7vw 1.5vw;
+    border: none;
+    background-color: #3FAD6B;
+    border-radius: 50px;
+    color: #fff;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.btn:hover{
+    color: #3FAD6B;
+    border: 1px solid #3FAD6B;
+    background-color: transparent;
+}
+
+.rght-top-part-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rght-value{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 25vw;
+    height: 25vh;
+    background-color: #f2fcff;
+    border-radius: 10px;
+    padding: 0vw 2vw;
+}
+
+.lft-value{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.lft-value h1{
+    color: #3FAD6B;
+}
+
+.lft-value p{
+    color: #747474;
+}
+
+.lft-value .value{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.part-2 .btm-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    padding: 0vw 7vw;
+    gap: 5vh;
+}
+
+.benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.benefits .value p{
+    width: 70%;
+}
+
+.benefits .value h1{
+    font-size: 2.5vw;
 }
